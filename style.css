@@ -1,0 +1,28 @@
+@font-face {
+    font-family: estilo;
+    src: url(font/PixelifySans-VariableFont_wght.ttf);
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: aliceblue;
+    transition: 1s;
+    font-family: estilo;
+    text-align: center;
+    background-color: black;
+}
+
+#lampada{
+    margin-top: 30px;
+    width: 250px;
+    height: 240px;
+    border-radius: 10px 50px 10px 50px;
+}
+
+button{
+    font-family: estilo;
+}
